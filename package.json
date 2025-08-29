@@ -1,0 +1,25 @@
+{
+  "name": "@traversable/zod-to-effect-example",
+  "type": "module",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/ui": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test:ui"
+  },
+  "dependencies": {
+    "@prettier/sync": "^0.6.1",
+    "@traversable/zod": "^0.0.25",
+    "@traversable/zod-test": "^0.0.11",
+    "effect": "^3.17.9"
+  }
+}
